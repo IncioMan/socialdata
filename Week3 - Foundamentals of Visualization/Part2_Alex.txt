@@ -1,34 +1,29 @@
-Explain in your own words the point of the jitter plot:
+**Explain in your own words the point of the jitter plot:
 
-In jitter plots, data are plotted as points but with a little shift (compared to the value of other data) in order for it to show multiple points at same location.
+In jitter plots, data are plotted as points but with a relativly little shift (compared to the value of other data) in order for it to show multiple points at same location.
 Don't use filled symbols and not even ones with parallel lines (crosses). Use open circles. Shift can be vertical or horizontal depending on the data and the purpose of the graph.
 
-Explain in your own words the point of figure 2-3. (I'm going to skip saying "in your own words" going forward, but I hope you get the point; I expect all answers to be in your own words).
+**Explain in your own words the point of figure 2-3. (I'm going to skip saying "in your own words" going forward, but I hope you get the point; I expect all answers to be in your own words).
 
 The point is to show how the alignment of bins can show different properties of the data. In one of the figure, the data seems flat and what is shown in the other figure, a higher concentration in the middle, is hidden. Depending on what we want to show, we can pick the proper alignment.
 
-
-The author of DAOST (Philipp Janert) likes KDEs (and think they're better than histograms). And I don't. I didn't give a detailed explanation in the video, but now that works to my advantage. I'll ask you guys to think about this and thereby create an excellent exercise: When can KDEs be misleading? (I'll provide the answer in a later lecture :)
+**The author of DAOST (Philipp Janert) likes KDEs (and think they're better than histograms). And I don't. I didn't give a detailed explanation in the video, but now that works to my advantage. I'll ask you guys to think about this and thereby create an excellent exercise: When can KDEs be misleading? (I'll provide the answer in a later lecture :)
 
 The human eye is much better at judging distances then areas. KDEs can be misleading since the eye notices the peaks but is not good at judging the areas under some parts on the KDE function.
 
-
-I've discussed some strengths of the CDF - there are also weaknesses. Janert writes "CDFs have less intuitive appeal than histograms of KDEs". What does he mean by that?
+**I've discussed some strengths of the CDF - there are also weaknesses. Janert writes "CDFs have less intuitive appeal than histograms of KDEs". What does he mean by that?
 
 CDF's do not plot data directly but instead plot a cumulative value. It is therefore less appealing as we don't see data directly plotted.
 
-
-What is a Quantile plot? What is it good for.
+**What is a Quantile plot? What is it good for.
 
 It is a CDFs but reversed. It allows to find the value given a percentile.
 
-
-How is a Probablity plot defined? What is it useful for? Have you ever seen one before?
+**How is a Probablity plot defined? What is it useful for? Have you ever seen one before?
 
 It is used for evaluating whether the datasets follows a specific distribution
 
-
-One of the reasons I like DAOST is that Janert is so suspicious of mean, median, and related summary statistics. Explain why one has to be careful when using those - and why visualization of the full data is always better.
+**One of the reasons I like DAOST is that Janert is so suspicious of mean, median, and related summary statistics. Explain why one has to be careful when using those - and why visualization of the full data is always better.
 
 "Mean and standard deviation are easy to calculate, and have certain nice mathematical
 properties—provided the data is symmetric and does not contain crazy outliers."
@@ -36,8 +31,7 @@ properties—provided the data is symmetric and does not contain crazy outliers.
 "When should you favor median and percentile over mean and standard deviation?
 Whenever you suspect that your distribution is not symmetric or has important outliers."
 
-
-I love box plots. When are box plots most useful?
+**I love box plots. When are box plots most useful?
 
 "You may wonder about the reason for this peculiar construction. Why not simply extend
 the whiskers to, say, the 5th and 95th percentile and be done with it? The problem with
@@ -51,7 +45,6 @@ described in the previous paragraph, do."
 
 Comparing distributions to other datasets. Shows the distributions of data using percentiles and is good in highlighting outliers since it uses not a generic value but 2 times the IQP from the median as a rule for outliers.
 
-
-The book doesn't mention violin plots. Are those better or worse than box plots? Why?
+**The book doesn't mention violin plots. Are those better or worse than box plots? Why?
 
 Boxplots + KDplot. Good at comparing distributions among different categories. Worse since not very popular and therefore not generally understood.
