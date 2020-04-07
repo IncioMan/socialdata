@@ -1,0 +1,42 @@
+Main idea:
+    Explore driving behaviors of danes in different communes
+    and try to explain these behvaiors by exploring possible correlation
+    with social indicators
+
+Why is it interesting:
+    Traffic and accidents have a big impact on people's life and health
+    Vejediraktoratet does already a lot of analysis of traffic data alone
+    It could be interesting to identify external causes that influence the driving behaviors
+    Social indexes are good indicators of the social structure of a municipality and could
+    help understanding/predicting more about the traffic habits
+
+Main goal: 
+    Investigate the correlation between social indexes 
+    and traffic behaviors in danish municipalities
+----
+Genre: 
+  Annotated chart
+Why:
+  We want to place the chart in the center but still adding some information
+  and keep a consistent visualization allowing the user to zoom in in the details
+  without getting lost in different types of visualization
+---
+Elements:
+  Kommuner data
+  Traffic data
+  Get kommuner shape files to plot
+  Folium and maybe D3
+
+Implementation plan:
+  Pre process data (extract and clean)
+  Statistical analysis of the 2 datasets
+  Plotting data on maps
+  Predict speeding patters for kommunes based on key indicators
+---
+Visualization:
+  Predictions:
+    Sliders for indicators and bar for prediction of fast drivers
+    Map with points on map with predicted fast drivers using k-neighbors
+
+
+  
