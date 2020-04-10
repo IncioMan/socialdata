@@ -1,0 +1,1 @@
+http://vmgeoserver.vd.dk/geosmastra/mastra_ul/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=mastra_ul:OPEN_DATA_NOEGLETAL_VIEW&outputFormat=SHAPE-ZIP
