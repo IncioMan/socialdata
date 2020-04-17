@@ -1,0 +1,26 @@
+1. Exploring the variable distribution (all municipalities aggregated)
+- Errors + Cleaning
+- Outliers (summary statistics, boxplots)
+- Counting observations per each categorical variable (e.g. year, municipality, type of traffic) -barcharts
+- Distribution of observations per each continuous variable (e.g avg. speed, percentage over limit, counted days) -histograms (Gaussian distribution qqplot?)
+
+2. Data manipulation
+- Counting the days (and apply log2?)
+- Decide on focus-municipalities (most days/observations and diversity? 10-14)
+- Decide on variables to plot
+- Create new variables (e.g. ratio july/everyday, distance from speed limit)
+
+3. Exploring the variable distribution (for some specific focus-municipalities) (normalizing to have percentage)
+- Counting observations per each categorical variable (e.g. year, type of traffic) -barcharts
+- Distribution of observations per each continuous variable (e.g. avg. speed, percentage over limit) -histograms (or boxplots?)
+
+4. Exploring the temporal trend (x axis is YEAR) of some interesting variables (TBD) (all municipalities aggregated OR/AND focus-municipalities)
+- Plot how some variables vary with years
+
+5. Plot new variables (e.g. histogram of distance from speed limit, jitter plot of speed, boxplots?)
+
+6. Evaluate histograms of avg.speed by long/lat
+
+
+
+	
